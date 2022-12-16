@@ -45,10 +45,7 @@ header {
     cursor: pointer;
 }
 
-.cofPic {
-    
-    
-}
+
 
 .navLinks {
     list-style: none;
@@ -102,6 +99,8 @@ main {
 
 .cofText {
     background-color:rgb(247, 235, 196);
+    max-height:100%;
+    
 }
 
 aside {
