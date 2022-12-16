@@ -61,6 +61,26 @@ header {
     color: #576bdd;
 }
 
+.asideLinks {
+    list-style: none;
+}
+
+.asideLinks li {
+    display:flex;
+    padding: 50px 20px;
+    background-color: #e8491d;
+}
+
+.asideLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.asideLinks li a:hover {
+    color: #576bdd;
+}
+
+
+
 
 main {
     display: flex;
@@ -69,15 +89,17 @@ main {
     padding: 0px 2%;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 aside {
     display: flex;
-    background-color: rgb(206, 122, 195);
+    background-color: #24252A;
     padding: 0px 2%;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    flex-direction: column;
 
 }
 
@@ -90,6 +112,28 @@ footer {
     color: #ffffff;
     background-color: #e8491d;
     justify-content: center;
+}
+
+@media(max-width: 520px) {
+
+    header, .showCase, footer  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    aside {
+        margin-top: 40px;
+    }
+
+    
+
+    
+
+
+
+
 }
 
 
